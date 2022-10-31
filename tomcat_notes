@@ -1,0 +1,19 @@
+## TOMCAT - Application sever
+
+- Tomcat is a tool that only understand .war packages
+-If extension is .jar or .ear then Tomcat will not be compatible for testing. Othe tools would have to be used.
+- Tomcat is written in java so java has to be installed first on the server to run tomcat
+- Available on port 8080
+- Cant have two application running on same port concurrently. ( like have two users with same phonenumber!)
+-If doing deployment through CLI need to understand the directory structure in which to deploy tomcat
+- Directories availavel are bin,,, conf,,,lib,,,webapps,,,
+- Artefact shoukd be in the webapps directory
+- Once artefact is in the webapps dir, automatically it is unleached and QA can access the app
+- To reach the app test team goes to http://pubipQA:8080/devops
+- Running this command reveals the webapp ( ed application portal for UFH ) then uses the pageto run tests us
+- Webapps hosts the artefacts: dir in which we deploy the atefact
+- 
+
+
+
+ 
