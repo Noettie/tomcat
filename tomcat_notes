@@ -1,5 +1,10 @@
 ## TOMCAT - Application sever
 
+
+.jar : simple java archive
+.war : web archive
+.ear : enterprise java archive
+
 - Tomcat is a tool that only understand .war packages
 -If extension is .jar or .ear then Tomcat will not be compatible for testing. Othe tools would have to be used.
 - Tomcat is written in java so java has to be installed first on the server to run tomcat
